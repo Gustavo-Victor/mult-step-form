@@ -41,8 +41,11 @@ Veja como ficou o arquivo [package.json](./package.json)
 
 ## ⚙ Funcionalidades 
 
-- [x] Permitir ao usuário digitar dados como nome, e-mail, url de seu perfil do Github, e nível de experiência em programação
+- [x] Permitir ao usuário digitar dados como nome, e-mail, url de seu perfil do Github, e nível de experiência em programação 
 - [x] Mostrar ao fim das etapas do formulário os dados do usuário
+- [x] Salvar dados do usuário e etapas do formulário no estado da aplicação 
+- [x] Compartilhar dados entre componentes da árvore usando contexto 
+- [x] Permitir gerenciamento de páginas da aplicação usando React Router DOM 
 
 
 ## 💻 Instalação 
