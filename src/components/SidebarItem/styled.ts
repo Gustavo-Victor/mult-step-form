@@ -74,6 +74,11 @@ export const IconArea = styled.div<{isActive: boolean;}>`
         width: 30px;
         height: 30px;         
     }
+
+    @media only screen and (max-width: 450px) {
+        width: 50px; 
+        height: 50px; 
+    }
 `; 
 
 export const Point = styled.div<{isActive: boolean;}>`

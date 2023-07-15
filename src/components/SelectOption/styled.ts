@@ -24,6 +24,16 @@ export const Icon = styled.div`
     justify-content: center;
     align-items: center;
     font-size: 1.5626rem; 
+
+    @media only screen and (max-width: 650px) {
+        width: 50px;
+        height: 50px;
+        font-size: 1.3rem; 
+    }
+
+    @media only screen and (max-width: 300px) {
+        display: none; 
+    }
 `; 
 
 export const Info = styled.div`
@@ -34,6 +44,7 @@ export const Title = styled.h3`
     font-size: 1.065rem; 
     font-weight: bold;
     margin-bottom: 0.4375rem; 
+
 `; 
 
 export const Description = styled.p`
